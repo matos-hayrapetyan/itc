@@ -1,0 +1,16 @@
+.idea
+client/node_modules
+client/jspm_packages
+client/npm-debug.*
+client/link-checker-results.txt
+client/app/**/*.js
+client/*.js.map
+client/e2e/**/*.js
+client/e2e/**/*.js.map
+client/_test-output
+client/_temp
+
+server/node_modules
+server/npm-debug.*
+server/out.*
+server/error.*

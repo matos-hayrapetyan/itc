@@ -1,0 +1,65 @@
+<nav class="main-nav">
+  <h1>
+    <a class="md-button md-ink-ripple" routerLink="/">ITC</a>
+  </h1>
+  <ul>
+    <li><a routerLink="/" routerLinkActive="active">Home</a></li>
+    <li>
+      <a routerLink="/about-us" routerLinkActive="active">About Us</a>
+      <ul>
+        <li>
+          <a routerLink="/who-we-are" routerLinkActive="active">Who We Are</a>
+        </li>
+        <li>
+          <a routerLink="/our-mission" routerLinkActive="active">Our Mission</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a routerLink="/our-community">Our Community</a>
+      <ul>
+        <li>
+          <a routerLink="/our-teams" routerLinkActive="active">Our Teams</a>
+        </li>
+        <li>
+          <a routerLink="/students" routerLinkActive="active">Students</a>
+        </li>
+        <li>
+          <a routerLink="/partners" routerLinkActive="active">Partners</a>
+        </li>
+        <li>
+          <a routerLink="/donors" routerLinkActive="active">Donors</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a routerLink="/showcase" routerLinkActive="active">Showcase</a>
+      <ul>
+        <li>
+          <a routerLink="/projects">Projects</a>
+        </li>
+        <li>
+          <a routerLink="/video-gallery">Video Gallery</a>
+        </li>
+        <li>
+          <a routerLink="/photo-gallery">Photo Gallery</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
+
+<!--<h1>Persons</h1>
+<div class="grid-card-wrap">
+  <md-card class="grid-card" *ngFor="let person of persons">
+    <md-card-header>
+      <img md-card-avatar src="https://pickaface.net/assets/images/slides/slide2.png">
+      <md-card-title>{{person.name}}</md-card-title>
+      <md-card-subtitle>{{person.email}}</md-card-subtitle>
+    </md-card-header>
+    <md-card-content>
+      <p>Here is some more content</p>
+    </md-card-content>
+  </md-card>
+</div>-->
